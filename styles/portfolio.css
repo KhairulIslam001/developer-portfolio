@@ -174,7 +174,7 @@ main section {
 }
 
 .resume-item-title {
-    color:#474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -191,11 +191,11 @@ main section {
 }
 
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px 0px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
@@ -203,9 +203,63 @@ main section {
 
 /* footer style */
 
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 110px;
     padding: 130px 200px;
+}
+
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
+}
+
+.section-title{
+    margin-bottom: 20px;
+}
+.section-description1 {
+    text-align: left;
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    color: #757575;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 461px;
+    height: 64px;
+}
+
+.contact textarea {
+    width: 461px;
+    height: 180px;
+}
+.contact{
+    margin-top: 0;
 }
