@@ -123,3 +123,15 @@ main{
     justify-content: space-around;
     text-align: center;
 }
+
+.info-descriptio{
+    margin-top: 0;
+}
+
+.info-title{
+    margin-bottom: 0;
+}
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
